@@ -8,7 +8,7 @@ export PATH
 #	Dscription: tinyPortMapper一键脚本
 #	Version: 1.0
 #	Blog: https://www.moerats.com
-#	Github:https://github.com/iiiiiii1/tinyPortMapper
+#	Github:https://gh.ransxd.com/iiiiiii1/tinyPortMapper
 # ====================================================
 
 Green="\033[32m"
@@ -132,8 +132,8 @@ echo -e "${Green}即将安装tinyPortMapper...${Font}"
 #获取最新版本号
 #tinyPortMapper_ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/wangyu-/tinyPortMapper/releases | grep -o '"tag_name": ".*"' |head -n 1| sed 's/"//g' | sed 's/tag_name: //g') && echo ${tinyPortMapper_ver}
 #下载tinyPortMapper
-#wget -N --no-check-certificate "https://github.com/wangyu-/tinyPortMapper/releases/download/${tinyPortMapper_ver}/tinymapper_binaries.tar.gz"
-wget -N --no-check-certificate "https://github.com/wangyu-/tinyPortMapper/releases/download/20180224.0/tinymapper_binaries.tar.gz"
+#wget -N --no-check-certificate "https://gh.ransxd.com/wangyu-/tinyPortMapper/releases/download/${tinyPortMapper_ver}/tinymapper_binaries.tar.gz"
+wget -N --no-check-certificate "https://gh.ransxd.com/wangyu-/tinyPortMapper/releases/download/20180224.0/tinymapper_binaries.tar.gz"
 #解压tinyPortMapper
 tar -xzf tinymapper_binaries.tar.gz
 mkdir /tinyPortMapper
